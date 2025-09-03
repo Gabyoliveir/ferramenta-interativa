@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+    font-family: bai jamjurre;
+}
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    color: aliceblue;
+    width: 100%;
+    height: 2rem;
+}
+footer p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+#container {
+    display:flex/Elementos dispostos em linha */
+}
+
+.cartao{
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33%-6rem)
+}
